@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F4CD798519904F42001F04F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CD798419904F42001F04F2 /* main.m */; };
+		F4CD798D19904F5B001F04F2 /* BNRStockHolding.m in Sources */ = {isa = PBXBuildFile; fileRef = F4CD798C19904F5B001F04F2 /* BNRStockHolding.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		F4CD798119904F42001F04F2 /* Stocks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Stocks; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CD798419904F42001F04F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F4CD798B19904F5B001F04F2 /* BNRStockHolding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRStockHolding.h; sourceTree = "<group>"; };
+		F4CD798C19904F5B001F04F2 /* BNRStockHolding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRStockHolding.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		F4CD797819904F42001F04F2 = {
 			isa = PBXGroup;
 			children = (
+				F4CD798B19904F5B001F04F2 /* BNRStockHolding.h */,
+				F4CD798C19904F5B001F04F2 /* BNRStockHolding.m */,
 				F4CD798319904F42001F04F2 /* Stocks */,
 				F4CD798219904F42001F04F2 /* Products */,
 			);
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4CD798519904F42001F04F2 /* main.m in Sources */,
+				F4CD798D19904F5B001F04F2 /* BNRStockHolding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
